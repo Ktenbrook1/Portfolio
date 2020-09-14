@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1.0, initial-scale=1.0">
+    <link rel="icon" type = "image/png" href = "K-icon.png">
+    <!--Google Font-->
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <!--BOOTSTRAP-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel= stylesheet href= styles.css>
+    <title>Katelynn's Portfolio</title>
+</head>
+<body>
+    <div class= "nav container">
+        <nav id="mainNavbar" class="navbar navbar-dark bg-dark navbar-expand-md py-0 fixed-top">
+        <a href="index.html" class="navbar-brand">HOME</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-lable="toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navLinks">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="about-me.html" class="nav-link">ABOUT ME</a>
+                </li>
+                <li class="nav-item">
+                    <a href="skills.html" class="nav-link">SKILLS</a>
+                </li>
+                <li class="nav-item">
+                    <a href="my-work.html" class="nav-link">MY WORK</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">CONTACT</a>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class ="container contact-form-outline">
+    <h2 class ="pt-2 border text-center contact-me">CONTACT ME</h2>
+
+    <form>
+        <div class= "form-group">
+            <div class= "form-inline mb-3">
+                <div class="input-group namebox" style="width: 45%;">
+                        <div class="input-group-prepend">
+                        <span class="input-group-text">Name</span>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Ex: John" required>
+                    </div>
+                <div class="input-group namebox email" style="width: 55%;">
+                    <div class="input-group-prepend">
+                    <span class="input-group-text">Email</span>
+                    </div>
+                    <input type="email" class="form-control" value="email@example.com" required>
+                </div>
+            </div>
+            <div class="input-group">
+                <span class="input-group-text mb-1">Message</span>
+                
+            </div>
+            <textarea type ="text" class="input__field  messagebox" placeholder="Details(optional)" name="msg"></textarea>
+            <button type="submit" class="btn btn-primary mb-2 submit-button">Submit</button>
+        </div>
+    </form>
+
+</div>
+    <!--jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script>
+    $(function(){
+        $(document).scroll(function(){
+            var $nav =$("#mainNavbar");
+            $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height())
+        });
+    });
+</script>
+</body>
+</html>

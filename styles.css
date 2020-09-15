@@ -144,11 +144,13 @@ img{
 }
 .education{
     position: relative;
-    border-color: white;
     border-radius: 10px;
     background-color: rgb(141, 135, 135);
     top: 25px;
     float: right;
     height: 31rem;
     width: 48%;
+}
+.regular-text{
+    color: black;
 }

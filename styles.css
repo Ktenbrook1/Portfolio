@@ -58,6 +58,16 @@ img{
     background-size: cover;
     border-radius: 50%;
 }
+.pic_of_me{
+    background-image: url('meAgain.jpg');
+    margin-left: 6em;
+    margin-top: 4rem;
+    width: 18rem;
+    height: 18rem;
+    background-position: center;
+    background-size: cover;
+    border-radius: 3%;
+}
 .text-button{
     margin-left: 10rem;
     margin-top: 2rem;
@@ -115,7 +125,7 @@ img{
     border-radius: 10px;
     margin: 3px 3px 3px 3px;
     height: 16rem;
-    background-color: rgb(141, 135, 135);   
+    background-color: rgb(141, 135, 135);
     color: white;
 }
 .view-button{

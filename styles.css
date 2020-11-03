@@ -58,12 +58,23 @@ img{
     background-size: cover;
     border-radius: 50%;
 }
+.about_me{
+    position: relative;
+    border-color: white;
+    top: 25px;
+    float: left;
+    width: 60%;
+    height: 37em;
+    font-size: 25px;
+}
 .pic_of_me{
     background-image: url('meAgain.jpg');
-    margin-left: 6em;
-    margin-top: 4rem;
-    width: 18rem;
-    height: 18rem;
+    margin-right: 4rem;
+    margin-top: 3rem;
+    border-radius: 10%;
+    float: right;
+    width: 20rem;
+    height:26rem;
     background-position: center;
     background-size: cover;
     border-radius: 3%;

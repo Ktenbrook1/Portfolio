@@ -199,8 +199,12 @@ height: auto;
     background-position: center;
     background-size: cover;
 }
+
 .opus_grows{
     background-image: url("opus.png");
+}
+.custom_list{
+    background-image: url("custom-list.png");
     background-position: center;
     background-size: cover;
 }

@@ -199,6 +199,11 @@ height: auto;
     background-position: center;
     background-size: cover;
 }
+.custom_list{
+    background-image: url("custom-list.png");
+    background-position: center;
+    background-size: cover;
+}
 a:link{
     text-decoration: none;
 }

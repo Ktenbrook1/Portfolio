@@ -202,9 +202,16 @@ height: auto;
 
 .opus_grows{
     background-image: url("opus.png");
+    background-position: center;
+    background-size: cover;
 }
 .custom_list{
     background-image: url("custom-list.png");
+    background-position: center;
+    background-size: cover;
+}
+.javascript_clock{
+    background-image: url("javaScriptClock.png");
     background-position: center;
     background-size: cover;
 }

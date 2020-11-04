@@ -137,12 +137,14 @@ img{
     margin: 3px 3px 3px 3px;
     height: 16rem;
     background-color: rgb(141, 135, 135);
-    color: white;
+    color: black;
 }
 .view-button{
     float: right;
     margin-top: 10rem;
+
 }
+
 .skills-page{
     background-image: url("tech-background.jpg");
     background-position: center;
@@ -174,4 +176,21 @@ img{
 }
 .regular-text{
     color: black;
+}
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.contain {
+    position: relative;
+}
+  
+/* Make the image to responsive */
+.image {
+display: block;
+width: 100%;
+height: auto;
+}
+.whats_cookin{
+    background-image: url("whatsCookin.png");
+    background-position: center;
+    background-size: cover;
 }

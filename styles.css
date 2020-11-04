@@ -194,3 +194,11 @@ height: auto;
     background-position: center;
     background-size: cover;
 }
+.movie_library{
+    background-image: url("movieLibrary.png");
+    background-position: center;
+    background-size: cover;
+}
+a:link{
+    text-decoration: none;
+}

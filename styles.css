@@ -199,6 +199,11 @@ height: auto;
     background-position: center;
     background-size: cover;
 }
+.opus_grows{
+    background-image: url("opus.png");
+    background-position: center;
+    background-size: cover;
+}
 a:link{
     text-decoration: none;
 }

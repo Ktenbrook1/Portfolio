@@ -207,3 +207,22 @@ height: auto;
 a:link{
     text-decoration: none;
 }
+.left_nav{
+    float: left;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.box{
+    color: blue;
+   
+}
+.linkedin{
+    background-position: cover;
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    opacity: 100%;
+}

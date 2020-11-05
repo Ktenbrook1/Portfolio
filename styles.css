@@ -14,6 +14,7 @@ img{
 #mainNavbar .nav-link{
     padding-left: 1rem;
 }
+
 .frontpage{
     width: 100rem;
     height: 32rem;
@@ -38,9 +39,6 @@ img{
     color: black;
 }
 .fullstack{
-    background-image: url("tech-background.jpg");
-    background-position: center;
-    background-size: cover;
     color: white;
     border-radius: 10px;
     top: 10px;
@@ -58,6 +56,36 @@ img{
     background-size: cover;
     border-radius: 50%;
 }
+@media only screen and  (max-width: 800px){
+    .frontpage{
+        width: 30rem;
+        height: 32rem;
+        background-position: center;
+        background-size: cover;
+        border-radius: 50%;
+        box-shadow: 1px 1px 10px 10px rgb(36, 36, 36) inset;
+        border-color: rgb(36, 36, 36);
+        margin-top: 4rem;
+    }
+    .picture{
+        background-image: url('MeKatelynn.jpg');
+        margin-left: 2rem;
+        margin-top: 4rem;
+        width: 18rem;
+        height: 18rem;
+        background-position: center;
+        background-size: cover;
+        border-radius: 50%;
+    }
+    .fullstack{
+        color: white;
+        border-radius: 10px;
+        top: 10px;
+        position: relative;
+        font-size: 3rem;
+        text-align: center;
+    }
+ }
 .about_me{
     position: relative;
     border-color: white;
@@ -218,3 +246,4 @@ height: auto;
 a:link{
     text-decoration: none;
 }
+

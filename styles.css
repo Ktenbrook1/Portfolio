@@ -226,14 +226,12 @@ a:link{
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
+
 .box{
-    color: blue;
-   
-}
-.linkedin{
     background-position: cover;
     background-size: cover;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     opacity: 100%;
+    margin: 10px 0 10px 0;
 }

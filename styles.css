@@ -49,41 +49,61 @@ img{
 .picture{
     background-image: url('MeKatelynn.jpg');
     margin-left: 6em;
-    margin-top: 4rem;
+    margin-top: 6rem;
     width: 18rem;
     height: 18rem;
     background-position: center;
     background-size: cover;
     border-radius: 50%;
 }
+.info{
+    -ms-flex-direction: row !important;
+    flex-direction: row !important;
+    display: -ms-flexbox !important;
+     display: flex !important;
+}
 @media only screen and  (max-width: 800px){
     .frontpage{
-        width: 30rem;
+        width: 35rem;
         height: 32rem;
         background-position: center;
         background-size: cover;
         border-radius: 50%;
         box-shadow: 1px 1px 10px 10px rgb(36, 36, 36) inset;
         border-color: rgb(36, 36, 36);
-        margin-top: 4rem;
+        margin-top: 2.5rem;
+    }
+    .welcome-message{
+        text-align: center;
+        margin-top: 4em;
+        margin-left: .5em;
+        color: white;
     }
     .picture{
         background-image: url('MeKatelynn.jpg');
-        margin-left: 2rem;
-        margin-top: 4rem;
-        width: 18rem;
-        height: 18rem;
+        
+        margin-top: 14em;
+        width: 40rem;
+        height: 10rem;
         background-position: center;
         background-size: cover;
         border-radius: 50%;
+        float: left;
     }
     .fullstack{
         color: white;
         border-radius: 10px;
-        top: 10px;
+        top: 0px;
         position: relative;
         font-size: 3rem;
         text-align: center;
+    }
+    .info{
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
  }
 .about_me{

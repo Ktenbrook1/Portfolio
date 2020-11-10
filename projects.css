@@ -3,9 +3,11 @@
   }
   
   /* Position the image container (needed to position the left and right arrows) */
-  .container {
-      margin-top: 9rem;
-    position: relative;
+  .container3 {
+   position: relative;
+   margin-top: 20px;
+   width: 40vw;
+   float: left;
   }
   
   /* Hide the images by default */
@@ -18,12 +20,11 @@
     cursor: pointer;
   }
   
-  /* Next & previous buttons */
   .prev,
   .next {
     cursor: pointer;
     position: absolute;
-    top: 40%;
+    top: 60%;
     width: auto;
     padding: 16px;
     margin-top: -50px;

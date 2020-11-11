@@ -234,6 +234,11 @@ display: block;
 width: 100%;
 height: auto;
 }
+.devworks{
+    background-image: url("images/devWorks/homeDW.png");
+    background-position: center;
+    background-size: cover;
+}
 .whats_cookin{
     background-image: url("images/whatsCookin/whatsCookin.png");
     background-position: center;
@@ -287,4 +292,9 @@ a:link{
     margin-top: 20px;
     width: 35%;
     float: right;
+}
+.clock{
+    width: 50vw;
+    border-radius: 3%;
+    margin-top: 20px;
 }

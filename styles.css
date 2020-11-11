@@ -246,7 +246,7 @@ height: auto;
 }
 
 .opus_grows{
-    background-image: url("opus.png");
+    background-image: url("images/opusGrows/opus.png");
     background-position: center;
     background-size: cover;
 }

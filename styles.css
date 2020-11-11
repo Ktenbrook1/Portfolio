@@ -235,7 +235,7 @@ width: 100%;
 height: auto;
 }
 .whats_cookin{
-    background-image: url("images/whatsCookin.png");
+    background-image: url("images/whatsCookin/whatsCookin.png");
     background-position: center;
     background-size: cover;
 }
@@ -251,7 +251,7 @@ height: auto;
     background-size: cover;
 }
 .custom_list{
-    background-image: url("custom-list.png");
+    background-image: url("images/customList/custom-list.png");
     background-position: center;
     background-size: cover;
 }
@@ -280,4 +280,11 @@ a:link{
     height: 50px;
     opacity: 100%;
     margin: 10px 0 10px 0;
+}
+.project_text{
+    font-size: 20px;
+    color:black;
+    margin-top: 20px;
+    width: 50%;
+    float: right;
 }

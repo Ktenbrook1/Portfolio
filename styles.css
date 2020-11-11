@@ -240,7 +240,7 @@ height: auto;
     background-size: cover;
 }
 .movie_library{
-    background-image: url("movieLibrary.png");
+    background-image: url("images/movieLibrary/movieLibrary.png");
     background-position: center;
     background-size: cover;
 }
@@ -285,6 +285,6 @@ a:link{
     font-size: 20px;
     color:black;
     margin-top: 20px;
-    width: 50%;
+    width: 35%;
     float: right;
 }

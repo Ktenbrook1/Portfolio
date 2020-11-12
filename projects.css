@@ -6,8 +6,16 @@
   .container3 {
    position: relative;
    margin-top: 20px;
-   width: 50vw;
+   width: 48vw;
    float: left;
+  }
+  @media only screen and  (max-width: 1000px){
+    .container3{
+      position: relative;
+      margin-top: 20px;
+      width: 70vw;
+      float: none;
+    }
   }
 
   .container3 img{

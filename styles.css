@@ -13,6 +13,7 @@ body{
 }
 
 .frontpage{
+    background-image: url('tech-background.jpg');
     width: 100rem;
     height: 32rem;
     background-position: center;
@@ -21,6 +22,7 @@ body{
     box-shadow: 1px 1px 10px 10px rgb(36, 36, 36) inset;
     border-color: rgb(36, 36, 36);
     margin-top: 6em;
+    padding: 0.5rem !important;
 }
 .welcome-message{
     text-align: center;
@@ -35,6 +37,7 @@ body{
     border-radius: 20px;
     color: black;
 }
+
 .fullstack{
     color: white;
     border-radius: 10px;
@@ -44,11 +47,10 @@ body{
     text-align: center;
 }
 .picture{
-    background-image: url('MeKatelynn.jpg');
-    margin-left: 6em;
+    margin-left: 11rem;
     margin-top: 6rem;
-    width: 18rem;
-    height: 18rem;
+    width: 15rem;
+    height: 20rem;
     background-position: center;
     background-size: cover;
     border-radius: 50%;
@@ -61,46 +63,45 @@ body{
 }
 @media only screen and  (max-width: 800px){
     .frontpage{
-        width: 35rem;
-        height: 32rem;
+        padding: 0%;
+        width: 90vw;
+        height: 90vh;
         background-position: center;
         background-size: cover;
-        border-radius: 50%;
-        box-shadow: 1px 1px 10px 10px rgb(36, 36, 36) inset;
-        border-color: rgb(36, 36, 36);
+        border-radius: 0%;
+        box-shadow: 0;
         margin-top: 2.5rem;
     }
     .welcome-message{
-        text-align: center;
-        margin-top: 4em;
+        margin-top: 0;
         margin-left: .5em;
+        text-align: center;
         color: white;
+        
     }
     .picture{
-        background-image: url('MeKatelynn.jpg');
-        
-        margin-top: 14em;
-        width: 40rem;
-        height: 10rem;
+        padding: 0%;
+        margin-left: 0em;
+        margin-top: 0rem;
+        width: 15rem !important;
+        height: 18rem;
         background-position: center;
         background-size: cover;
         border-radius: 50%;
-        float: left;
     }
     .fullstack{
         color: white;
         border-radius: 10px;
         top: 0px;
         position: relative;
-        font-size: 3rem;
+        font-size: 1rem;
         text-align: center;
     }
     .info{
-        margin: 0;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+        display: -ms-grid;
+        display: flex;
     }
  }
 .about_me{
@@ -122,7 +123,6 @@ body{
     height:26rem;
     background-position: center;
     background-size: cover;
-    border-radius: 3%;
 }
 .text-button{
     margin-left: 10rem;
@@ -302,6 +302,7 @@ a:link{
     height: 50px;
     opacity: 100%;
     margin: 10px 0 10px 0;
+    background-color: white;
 }
 .project_text{
     font-size: 20px;
@@ -322,4 +323,31 @@ a:link{
     width: 50vw;
     border-radius: 3%;
     margin-top: 20px;
+}
+@media only screen and  (max-width: 500px){
+    .namebox{
+        padding-top: 2rem;
+    }
+    .email{
+        padding-left: 0;
+    }
+    .box{
+        background-position: cover;
+        background-size: cover;
+        border-radius: 0px 5px 5px 0px;
+        padding: 2px;
+        width: 50px;
+        height: 50px;
+        opacity: 100%;
+        margin: 10px 0 10px 0;
+    }
+    .left_nav{
+        float: none;
+       
+        position: absolute;
+        bottom: 0;
+        top: 90%;
+        -ms-transform: translateY(0%);
+        transform: translateY(0%);
+    }
 }

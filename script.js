@@ -33,3 +33,10 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
+
+function downloadResume(){
+  var link = document.createElement('a');
+  link.href = url;
+  link.download = 'Resume2.pdf';
+  link.dispatchEvent(new MouseEvent('click'));
+}

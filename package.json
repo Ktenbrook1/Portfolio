@@ -1,0 +1,22 @@
+{
+  "name": "portfolio2",
+  "version": "1.0.0",
+  "description": "\"My personal website\"",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ktenbrook1/Portfolio.git"
+  },
+  "author": "Katelynn Tenbrook",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ktenbrook1/Portfolio/issues"
+  },
+  "homepage": "https://github.com/Ktenbrook1/Portfolio#readme",
+  "dependencies": {
+    "file-saver": "^2.0.5"
+  }
+}

@@ -33,10 +33,21 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
-
+/* This code is suppost to turn a url to a PDF which is the opposite of what Im looking for, instead I found a way to do it in just raw HTML https://www.w3schools.com/tags/att_a_download.asp
 function downloadResume(){
-  var link = document.createElement('a');
-  link.href = url;
-  link.download = 'Resume2.pdf';
-  link.dispatchEvent(new MouseEvent('click'));
+  var oReq = new XMLHttpRequest();
+  var URLToPDF = "file:///C:/Users/katel/OneDrive/Desktop/DevCodeCamp/Portfolio2/Resume2.pdf";
+  oReq.open("GET", URLToPDF, true);
+  oReq.responseType = "blob";
+
+  oReq.onload = function() {
+      var file = new Blob([oReq.response], { 
+          type: 'application/pdf' 
+      });
+      saveAs(file, "mypdffilename.pdf");
+  };
+
+  oReq.send();
 }
+ */
+

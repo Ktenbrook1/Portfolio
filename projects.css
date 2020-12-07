@@ -1,8 +1,7 @@
 * {
     box-sizing: border-box;
   }
-  
-  /* Position the image container (needed to position the left and right arrows) */
+
   .container3 {
    position: relative;
    margin-top: 20px;
@@ -17,26 +16,28 @@
       float: none;
     }
   }
-  @media only screen and  (min-width: 1400px){
-    .container3{
+
+  @media only screen and  (min-width: 1350px){
+    .container3 img{
+      width: 400px; 
+    } 
+    .container3 {
       position: relative;
       margin-top: 20px;
-      width: 70vw;
-      float: none;
-    }
+      width: 650px;
+      float: left;
+     }
   }
 
   .container3 img{
       width: fit-content;
      
   }
-  
-  /* Hide the images by default */
+
   .mySlides {
     display: none;
   }
-  
-  /* Add a pointer when hovering over the thumbnail images */
+
   .cursor {
     cursor: pointer;
   }
@@ -57,19 +58,17 @@
     -webkit-user-select: none;
   }
   
-  /* Position the "next button" to the right */
+ 
   .next {
     right: 0;
     border-radius: 3px 0 0 3px;
   }
   
-  /* On hover, add a black background color with a little bit see-through */
   .prev:hover,
   .next:hover {
     background-color: rgba(0, 0, 0, 0.8);
   }
   
-  /* Number text (1/3 etc) */
   .numbertext {
     color: black;
     font-size: 12px;
@@ -92,13 +91,11 @@
     clear: both;
   }
   
-  /* Six columns side by side */
   .column {
     float: left;
     width: 16.66%;
   }
   
-  /* Add a transparency effect for thumnbail images */
   .demo {
     opacity: 0.6;
   }

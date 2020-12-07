@@ -17,6 +17,14 @@
       float: none;
     }
   }
+  @media only screen and  (min-width: 1400px){
+    .container3{
+      position: relative;
+      margin-top: 20px;
+      width: 70vw;
+      float: none;
+    }
+  }
 
   .container3 img{
       width: fit-content;

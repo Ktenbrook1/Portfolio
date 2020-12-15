@@ -162,6 +162,7 @@ body{
     top: 10px;
     position: relative;
     font-size: 3rem;
+    filter: drop-shadow(2px 4px 6px black);
 }
 .namebox{
     padding-top: 2rem;
@@ -303,6 +304,7 @@ a:link{
     opacity: 100%;
     margin: 10px 0 10px 0;
     background-color: white;
+    filter: drop-shadow(2px 4px 6px black);
 }
 .project_text{
     font-size: 20px;

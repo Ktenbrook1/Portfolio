@@ -1,0 +1,127 @@
+*, *::after, *::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html{
+    /* Sets 1 REM = 10px */
+    font-size: 62.5%;
+}
+body{
+    background-color: rgb(36, 36, 36);
+    font-family: 'Righteous', cursive;
+    box-sizing: border-box;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+#mainNavbar{
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+#mainNavbar .nav-link{
+    padding-left: 1rem;
+}
+.box{
+    background-position: cover;
+    background-size: cover;
+    border-radius: 0px 5px 5px 0px;
+    padding: 2px;
+    width: 50px;
+    height: 50px;
+    opacity: 100%;
+    margin: 10px 0 10px 0;
+    background-color: white;
+    filter: drop-shadow(2px 4px 6px black);
+}
+.project_text{
+    font-size: 20px;
+    color:black;
+    margin-top: 8px;
+    width: 38%;
+    float: right;
+}
+/* 
+0-500 px        phone
+500-800 px      tablet/port
+800-1200 px     tablet hoiz
+1200-1800 px    laptop
+1800+ px        desktop
+*/
+
+@media only screen and (min-width: 320px){
+    img{
+        width: 20rem;
+    }
+    .frontpage{
+        background-image: url('tech-background.jpg');
+        padding: 0%;
+        width: 90vw;
+        height: 90vh;
+        background-position: center;
+        background-size: cover;
+        border-radius: 0%;
+        box-shadow: 1px 1px 10px 10px rgb(36, 36, 36) inset;
+        box-shadow: 0;
+        margin-top: 3.5rem;
+    }
+    .welcome-message{
+        margin-top: 0;
+        margin-left: .5em;
+        text-align: center;
+        color: white;
+        
+    }
+    .picture{
+        margin-top: 3rem;
+        width: 16rem;
+        height: 18rem;
+        background-size: cover;
+        border-radius: 50%;
+        justify-items: center;
+        justify-content: center;
+    }
+    .parent{
+        top: 2rem;
+    }
+    .fullstack{
+        color: white;
+        border-radius: 10px;
+        top: 0;
+        position: relative;
+        font-size: 1rem;
+        text-align: center;
+    }
+    .info{
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+        display: -ms-grid;
+        display: flex;
+    }
+    .namebox{
+        padding-top: 2rem;
+    }
+    .email{
+        padding-left: 0;
+    }
+    .box{
+        background-position: cover;
+        background-size: cover;
+        border-radius: 0px 5px 5px 0px;
+        padding: 2px;
+        width: 50px;
+        height: 50px;
+        opacity: 100%;
+        margin: 10px 0 10px 0;
+    }
+    .left_nav{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: white;
+        color: black;
+        text-align: center;
+    }
+}

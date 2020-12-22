@@ -126,4 +126,38 @@ body{
     .parent a{
         justify-content: center;
     }
+    /*
+    about me page styling
+    */
+    .about-me{
+        background-color: rgb(141, 135, 135);
+        margin: 4rem 5px 0rem 5px;
+        height: 70rem;
+        border-radius: 20px;
+        color: black;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .contact-me{
+        background-image: url("tech-background.jpg");
+        background-position: center;
+        background-size: cover;
+        color: white;
+        border-radius: 10px;
+        top: 10px;
+        position: relative;
+        font-size: 3rem;
+        filter: drop-shadow(2px 4px 6px black);
+    }
+    .pic_of_me{
+        background-image: url('meAgain.jpg');
+        margin-right: 4rem;
+        margin-top: 3rem;
+        border-radius: 10%;
+        float: right;
+        width: 20rem;
+        height:26rem;
+        background-position: center;
+        background-size: cover;
+    }
 }

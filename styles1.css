@@ -251,15 +251,14 @@ body{
     }
     .cell{
         border-radius: 10px;
-        /* justify-content: center; */
         margin: 10px 10px 10px 10px;
         height: 20rem;
-        /* width: 96%; */
+        filter: drop-shadow(2px 4px 6px black);
         background-color: rgb(141, 135, 135);
         color: black;
     }
     .projects a:hover{
-        opacity: .2;
+        background-image:  linear-gradient(to bottom, transparent, black);
     }
     .cell h3{
         margin-left: 2rem;

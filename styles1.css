@@ -258,8 +258,36 @@ body{
         background-color: rgb(141, 135, 135);
         color: black;
     }
+    .projects a:hover{
+        opacity: .2;
+    }
+    .cell h3{
+        margin-left: 2rem;
+        margin-top: 2rem;
+        font-size: 23px;
+    }
     .view-button{
         float: right;
         margin-top: 10rem;  
+    }
+     /*
+    contacts page
+    */
+    .email{
+        padding-left: 3px;
+    }
+    .messagebox{
+        position: relative;
+        height: 18rem;
+        width: 100%;
+        border-radius: 1%;
+        border-color: rgb(177, 175, 175);
+    }
+    .submit-button{
+        float: right;
+        font-size: 1.5rem;
+        width: 8rem;
+        padding: 5px 0 5px 0;
+        margin: 5px 1em 5px 0;
     }
 }

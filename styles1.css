@@ -195,6 +195,13 @@ a:link{
     float: right;
     margin-top: 10rem;  
 }
+.project_text{
+    font-size: 1.6rem;
+    color:black;
+    margin-top: 8px;
+    width: 40%;
+    float: right;
+}
 /*Skills page*/
 
 .skills-page{
@@ -516,7 +523,7 @@ Desktop
 */
 @media only screen and (min-width: 601px) and (max-width: 995px){
     .about_me{
-        font-size: 1.2rem;       
+        font-size: 1.3rem;       
         margin-top: 2rem;
     }
     .pic_of_me{
@@ -527,5 +534,24 @@ Desktop
     }
     .infoSpan {
         margin-left: 4rem;
+    }
+    .contact-form-outline{
+        background-color: rgb(141, 135, 135);
+        margin-top: 4rem;
+        height: fit-content;
+        border-radius: 20px;
+    }
+    .project_text{
+        font-size: 15px;
+        float: none;
+        width: 90%;
+        justify-content: center;
+    }
+    .clock{
+        width: 90%;
+        border-radius: 3%;
+        margin-top: 20px;
+        margin-left: 10px;
+        justify-content: center;
     }
 }

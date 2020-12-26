@@ -138,7 +138,7 @@ a:link{
     height: 16rem;
     filter: drop-shadow(2px 4px 6px black);
     background-color: rgb(141, 135, 135);
-    color: black;
+    color: white;
 }
 .projects a:hover{
     background-image:  linear-gradient(to bottom, transparent, black);
@@ -147,13 +147,55 @@ a:link{
     margin-left: 2rem;
     margin-top: 2rem;
     font-size: 23px;
-   
+    background-color: black;
+    opacity: .8;
+    width: 15rem;
+    padding: 5px; 
+    border-radius: 9%;
 }
 .view-button{
     float: right;
     margin-top: 10rem;  
 }
+/*Skills page*/
 
+.skills-page{
+    display: block;
+    background-image: url("tech-background.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    border-radius: 10px;
+    top: 5rem;
+    height: 88vh;
+    width: 98%;
+    position: relative;
+}
+.skills{
+    position: relative;
+    border-color: white;
+    border-radius: 10px;
+    background-color: rgb(141, 135, 135);
+    top: 25px;
+    float: left;
+    height: 75vh;
+    width: 48%;
+}
+.education{
+    position: relative;
+    border-radius: 10px;
+    background-color: rgb(141, 135, 135);
+    top: 25px;
+    float: right;
+    height: 75vh;
+    width: 48%;
+}
+.regular-text{
+    color: black;
+}
+
+
+ 
 /* 
 0-500 px        phone
 500-800 px      tablet/port
@@ -284,14 +326,10 @@ a:link{
     skills page styling
     */
     .skills-page{
-        background-image: url("tech-background.jpg");
-        background-position: center;
-        background-size: cover;
-        color: white;
-        border-radius: 10px;
         top: 3rem;
         height: 60rem;
-        position: relative;
+        display: inline-grid;
+        grid-template-columns: auto;
     }
     .skills{
         position: relative;

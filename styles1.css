@@ -254,6 +254,7 @@ a:link{
 .about_me{
     position: relative;
     border-color: white;
+    margin-top: 2rem;
     top: 25px;
     float: left;
     width: 60%;
@@ -381,7 +382,7 @@ a:link{
         float: none;
         width: auto;
         height: auto;
-   
+        margin-top: 2rem;
     }
     .about-me{
         background-color: rgb(141, 135, 135);
@@ -513,3 +514,18 @@ a:link{
 /*
 Desktop
 */
+@media only screen and (min-width: 601px) and (max-width: 995px){
+    .about_me{
+        font-size: 1.2rem;       
+        margin-top: 2rem;
+    }
+    .pic_of_me{
+        margin-right: 1rem;
+        margin-top: 3rem;
+        width: 16rem;
+        height: 30rem;
+    }
+    .infoSpan {
+        margin-left: 4rem;
+    }
+}

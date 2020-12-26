@@ -84,6 +84,75 @@ body{
     padding: 5px 0 5px 0;
     margin: 5px 1em 5px 0;
 }
+/*My Work page*/
+.devworks{
+    background-image: url("images/devWorks/devworks.png");
+    background-position: center;
+    background-size: cover;
+}
+.whats_cookin{
+    background-image: url("images/whatsCookin/whatsCookin.png");
+    background-position: center;
+    background-size: cover;
+}
+.movie_library{
+    background-image: url("images/movieLibrary/movieLibrary.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.opus_grows{
+    background-image: url("images/opusGrows/opus.png");
+    background-position: center;
+    background-size: cover;
+}
+.custom_list{
+    background-image: url("images/customList/custom-list.png");
+    background-position: center;
+    background-size: cover;
+}
+.javascript_clock{
+    background-image: url("javaScriptClock.png");
+    background-position: center;
+    background-size: cover;
+}
+a:link{
+    text-decoration: none;
+}
+
+.projects{
+    display: grid;
+    grid-template-columns: auto auto;  
+    grid-template-rows: auto; 
+    height: fit-content;
+    width: 98%;
+    padding: 2rem 2rem 2rem 2rem;
+    border-radius: 10px;
+    background-image: url(tech-background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.cell{
+    border-radius: 10px;
+    margin: 10px 10px 10px 10px;
+    height: 16rem;
+    filter: drop-shadow(2px 4px 6px black);
+    background-color: rgb(141, 135, 135);
+    color: black;
+}
+.projects a:hover{
+    background-image:  linear-gradient(to bottom, transparent, black);
+}
+.cell h3{
+    margin-left: 2rem;
+    margin-top: 2rem;
+    font-size: 23px;
+   
+}
+.view-button{
+    float: right;
+    margin-top: 10rem;  
+}
 
 /* 
 0-500 px        phone
@@ -171,12 +240,10 @@ body{
         background-image: linear-gradient(to bottom, transparent, black);   
 
         float: none;
-        margin: none;
-        
+        margin: none;        
         top: 93%;
         -ms-transform: translateY(0);
         transform: translateY(0);
-       /*problem lies here*/
     }
     .parent a{
         justify-content: center;
@@ -273,25 +340,14 @@ body{
     projects page
     */
     .projects{
-        height: fit-content;
-        width: 98%;
-        padding: 2rem 2rem 2rem 2rem;
-        border-radius: 10px;
-        background-image: url(tech-background.jpg);
-        background-position: center;
-        background-size: cover;
+        display: grid;
+        grid-template-columns: auto;  
+        grid-template-rows: auto; 
     }
     .cell{
-        border-radius: 10px;
-        margin: 10px 10px 10px 10px;
         height: 20rem;
-        filter: drop-shadow(2px 4px 6px black);
-        background-color: rgb(141, 135, 135);
-        color: black;
     }
-    .projects a:hover{
-        background-image:  linear-gradient(to bottom, transparent, black);
-    }
+    
     .cell h3{
         margin-left: 2rem;
         margin-top: 2rem;

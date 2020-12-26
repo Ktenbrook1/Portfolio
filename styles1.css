@@ -61,7 +61,7 @@ body{
     border-radius: 10px;
     top: 10px;
     position: relative;
-    font-size: 3rem;
+    font-size: 5rem;
     filter: drop-shadow(2px 4px 6px black);
 }
 .namebox{
@@ -193,7 +193,43 @@ a:link{
 .regular-text{
     color: black;
 }
-
+/*About me*/
+.pic_of_me{
+    background-image: url(meAgain.jpg);
+    margin-right: 4rem;
+    margin-top: 3rem;
+    border-radius: 10%;
+    float: right;
+    width: 25rem;
+    height: 35rem;
+    background-position: center;
+    background-size: cover;
+}
+.about-me{
+    background-color: rgb(141, 135, 135);
+    margin-top: 4rem;
+    height: 90vh;
+    border-radius: 20px;
+    color: black;
+    border: 1px;
+}
+.about_me{
+    position: relative;
+    border-color: white;
+    top: 25px;
+    float: left;
+    width: 60%;
+    height: 37em;
+    font-size: 1.9rem;
+}
+.fullstack{
+    color: white;
+    border-radius: 10px;
+    top: 10px;
+    position: relative;
+    font-size: 5rem;
+    text-align: center;
+}
 
  
 /* 

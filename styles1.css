@@ -44,8 +44,46 @@ body{
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
+/* Front page/ index*/
 
-
+.frontpage{
+    background-image: url(tech-background.jpg);
+    width: 100rem;
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px 10px rgb(36, 36, 36) inset;
+    border-color: rgb(36, 36, 36);
+    margin-top: 10rem;
+    padding: 0.5rem !important
+}
+.welcome-message{
+    text-align: center;
+    margin-top: 4.5em;
+    margin-left: 1em;
+    color: white;
+}
+.picture{
+    margin-left: 11rem;
+    margin-top: 6rem;
+    width: 15rem;
+    height: 20rem;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+.info{
+    -ms-flex-direction: row;
+    flex-direction: row;
+    display: -ms-flexbox;
+     display: flex;
+}
+.infoSpan{
+    text-align: center;
+    margin-top: 0rem;
+    margin-left: 14rem;
+}
 /*contact form*/
 .contact-form-outline{
     background-color: rgb(141, 135, 135);
@@ -248,6 +286,7 @@ a:link{
         background-image: url('tech-background.jpg');
         padding: 0%;
         width: 90vw;
+        margin-top: 4rem;
         height: 90vh;
         background-position: center;
         background-size: cover;
@@ -265,7 +304,8 @@ a:link{
     }
     .picture{
         margin-top: 3rem;
-        width: 16rem;
+        margin-left: 0rem;
+        width: 14rem;
         height: 18rem;
         background-size: cover;
         border-radius: 50%;
@@ -288,6 +328,10 @@ a:link{
         flex-direction: column-reverse;
         display: -ms-grid;
         display: flex;
+    }
+    .infoSpan{
+        margin-top: 3rem;
+        margin-left: 0rem;
     }
     .namebox{
         padding-top: 2rem;
@@ -329,14 +373,26 @@ a:link{
     /*
     about me page styling
     */
+    .about_me{
+        font-size: 1rem;
+        position: relative;
+        border-color: white;
+        top: 0px;
+        float: none;
+        width: auto;
+        height: auto;
+   
+    }
     .about-me{
         background-color: rgb(141, 135, 135);
         margin: 4rem 5px 0rem 5px;
         height: inherit;
+        width:97%;
         border-radius: 20px;
         color: black;
         padding-right: 15px;
         padding-left: 15px;
+        padding-bottom: 30px;
     }
     .contact-me{
         background-image: url("tech-background.jpg");
@@ -357,6 +413,8 @@ a:link{
         height: 20rem;
         background-position: center;
         background-size: cover;
+        margin-right: auto;
+        margin-top: auto;
     }
      /*
     skills page styling

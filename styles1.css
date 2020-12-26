@@ -23,6 +23,7 @@ body{
 #mainNavbar .nav-link{
     padding-left: 1rem;
 }
+
 .box{
     background-position: cover;
     background-size: cover;
@@ -35,49 +36,55 @@ body{
     background-color: white;
     filter: drop-shadow(2px 4px 6px black);
 }
-.project_text{
-    font-size: 20px;
-    color:black;
-    margin-top: 8px;
-    width: 38%;
-    float: right;
+.left_nav{
+    float: left;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
-/* Make the image to responsive */
 
-    .devworks{
-        background-image: url("images/devWorks/devworks.png");
-        background-position: center;
-        background-size: cover;
-    }
-    .whats_cookin{
-        background-image: url("images/whatsCookin/whatsCookin.png");
-        background-position: center;
-        background-size: cover;
-    }
-    .movie_library{
-        background-image: url("images/movieLibrary/movieLibrary.png");
-        background-position: center;
-        background-size: cover;
-    }
-    
-    .opus_grows{
-        background-image: url("images/opusGrows/opus.png");
-        background-position: center;
-        background-size: cover;
-    }
-    .custom_list{
-        background-image: url("images/customList/custom-list.png");
-        background-position: center;
-        background-size: cover;
-    }
-    .javascript_clock{
-        background-image: url("javaScriptClock.png");
-        background-position: center;
-        background-size: cover;
-    }
-    a:link{
-        text-decoration: none;
-    }
+
+/*contact form*/
+.contact-form-outline{
+    background-color: rgb(141, 135, 135);
+    margin-top: 4rem;
+    height: 90vh;
+    border-radius: 20px;
+}
+.contact-me{
+    background-image: url("tech-background.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    border-radius: 10px;
+    top: 10px;
+    position: relative;
+    font-size: 3rem;
+    filter: drop-shadow(2px 4px 6px black);
+}
+.namebox{
+    padding-top: 2rem;
+}
+.email{
+    padding-left: 5em;
+}
+.messagebox{
+    position: relative;
+    height: 18rem;
+    width: 100%;
+    border-radius: 1%;
+    border-color: rgb(177, 175, 175);
+}
+.submit-button{
+    float: right;
+    font-size: 1.5rem;
+    width: 8rem;
+    padding: 5px 0 5px 0;
+    margin: 5px 1em 5px 0;
+}
+
 /* 
 0-500 px        phone
 500-800 px      tablet/port
@@ -86,7 +93,7 @@ body{
 1800+ px        desktop
 */
 
-@media only screen and (min-width: 320px){
+@media only screen and (min-width: 320px) and (max-width: 600px){
     img{
         width: 20rem;
     }
@@ -150,6 +157,10 @@ body{
         height: 40px;
         opacity: 100%;
         bottom : 0;
+
+        margin: 0;
+        background-color: none;
+        filter: none;
     }
     .left_nav{
         position: fixed;
@@ -158,6 +169,14 @@ body{
         bottom: 0;
         width: 100%;
         background-image: linear-gradient(to bottom, transparent, black);   
+
+        float: none;
+        margin: none;
+        
+        top: 93%;
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+       /*problem lies here*/
     }
     .parent a{
         justify-content: center;
@@ -204,7 +223,7 @@ body{
         color: white;
         border-radius: 10px;
         top: 3rem;
-        height: 65rem;
+        height: 60rem;
         position: relative;
     }
     .skills{
@@ -236,6 +255,19 @@ body{
         margin-top: 4rem;
         height: fit-content;
         border-radius: 20px;
+    }
+    .project_text{
+        font-size: 15px;
+        float: none;
+        width: 90%;
+        justify-content: center;
+    }
+    .clock{
+        width: 90%;
+        border-radius: 3%;
+        margin-top: 20px;
+        margin-left: 10px;
+        justify-content: center;
     }
      /*
     projects page
@@ -290,3 +322,6 @@ body{
         margin: 5px 1em 5px 0;
     }
 }
+/*
+Desktop
+*/

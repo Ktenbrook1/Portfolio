@@ -61,49 +61,7 @@ body{
     display: -ms-flexbox !important;
      display: flex !important;
 }
-@media only screen and  (max-width: 800px){
-    .frontpage{
-        padding: 0%;
-        width: 90vw;
-        height: 90vh;
-        background-position: center;
-        background-size: cover;
-        border-radius: 0%;
-        box-shadow: 0;
-        margin-top: 2.5rem;
-    }
-    .welcome-message{
-        margin-top: 0;
-        margin-left: .5em;
-        text-align: center;
-        color: white;
-        
-    }
-    .picture{
-        padding: 0%;
-        margin-left: 0em;
-        margin-top: 0rem;
-        width: 15rem !important;
-        height: 18rem;
-        background-position: center;
-        background-size: cover;
-        border-radius: 50%;
-    }
-    .fullstack{
-        color: white;
-        border-radius: 10px;
-        top: 0px;
-        position: relative;
-        font-size: 1rem;
-        text-align: center;
-    }
-    .info{
-        -ms-flex-direction: column-reverse;
-        flex-direction: column-reverse;
-        display: -ms-grid;
-        display: flex;
-    }
- }
+
 .about_me{
     position: relative;
     border-color: white;
@@ -137,21 +95,6 @@ body{
     margin-top: 4rem;
     height: fit-content;
     border-radius: 20px;
-}
-@media only screen and  (max-width: 1000px){
-    .contact-form-outline{
-        height: 110vmax;
-    }
-}
-@media only screen and  (max-width: 1100px) and (min-width: 1001px){
-    .contact-form-outline{
-        height: 90vmax;
-    }
-}
-@media only screen and  (max-width: 1400px) and (min-width: 1101px){
-    .contact-form-outline{
-        height: 50vmax;
-    }
 }
 .contact-me{
     background-image: url("tech-background.jpg");
@@ -312,44 +255,4 @@ a:link{
     margin-top: 8px;
     width: 38%;
     float: right;
-}
-@media only screen and  (max-width: 1000px){
-    .project_text{
-        font-size: 15px;
-        float: none;
-        width: 90%;
-        justify-content: center;
-    }
-}
-.clock{
-    width: 50vw;
-    border-radius: 3%;
-    margin-top: 20px;
-}
-@media only screen and  (max-width: 500px){
-    .namebox{
-        padding-top: 2rem;
-    }
-    .email{
-        padding-left: 0;
-    }
-    .box{
-        background-position: cover;
-        background-size: cover;
-        border-radius: 0px 5px 5px 0px;
-        padding: 2px;
-        width: 50px;
-        height: 50px;
-        opacity: 100%;
-        margin: 10px 0 10px 0;
-    }
-    .left_nav{
-        float: none;
-       
-        position: absolute;
-        bottom: 0;
-        top: 90%;
-        -ms-transform: translateY(0%);
-        transform: translateY(0%);
-    }
 }

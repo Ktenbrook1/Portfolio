@@ -1,0 +1,578 @@
+*, *::after, *::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html{
+    /* Sets 1 REM = 10px */
+    font-size: 62.5%;
+}
+body{
+    background-color: rgb(36, 36, 36);
+    font-family: 'Righteous', cursive;
+    box-sizing: border-box;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+#mainNavbar{
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+#mainNavbar .nav-link{
+    padding-left: 1rem;
+}
+
+.box{
+    background-position: cover;
+    background-size: cover;
+    border-radius: 0px 5px 5px 0px;
+    padding: 2px;
+    width: 50px;
+    height: 50px;
+    opacity: 100%;
+    margin: 10px 0 10px 0;
+    background-color: white;
+    filter: drop-shadow(2px 4px 6px black);
+}
+.left_nav{
+    float: left;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+/* Front page/ index*/
+
+.frontpage{
+    background-image: url(tech-background.jpg);
+    width: 100rem;
+    height: 60vh;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px 10px rgb(36, 36, 36) inset;
+    border-color: rgb(36, 36, 36);
+    margin-top: 10rem;
+    padding: 0.5rem !important
+}
+.welcome-message{
+    text-align: center;
+    margin-top: 4.5em;
+    margin-left: 1em;
+    color: white;
+}
+.picture{
+    margin-left: 11rem;
+    margin-top: 6rem;
+    width: 15rem;
+    height: 20rem;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+}
+.info{
+    -ms-flex-direction: row;
+    flex-direction: row;
+    display: -ms-flexbox;
+     display: flex;
+}
+.infoSpan{
+    text-align: center;
+    margin-top: 0rem;
+    margin-left: 14rem;
+}
+/*contact form*/
+.contact-form-outline{
+    background-color: rgb(141, 135, 135);
+    margin-top: 4rem;
+    height: 90vh;
+    border-radius: 20px;
+}
+.contact-me{
+    background-image: url("tech-background.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    border-radius: 10px;
+    top: 10px;
+    position: relative;
+    font-size: 5rem;
+    filter: drop-shadow(2px 4px 6px black);
+}
+.namebox{
+    padding-top: 2rem;
+}
+.email{
+    padding-left: 5em;
+}
+.messagebox{
+    position: relative;
+    height: 18rem;
+    width: 100%;
+    border-radius: 1%;
+    border-color: rgb(177, 175, 175);
+}
+.submit-button{
+    float: right;
+    font-size: 1.5rem;
+    width: 8rem;
+    padding: 5px 0 5px 0;
+    margin: 5px 1em 5px 0;
+}
+/*My Work page*/
+.devworks{
+    background-image: url("images/devWorks/devworks.png");
+    background-position: center;
+    background-size: cover;
+}
+.whats_cookin{
+    background-image: url("images/whatsCookin/whatsCookin.png");
+    background-position: center;
+    background-size: cover;
+}
+.movie_library{
+    background-image: url("images/movieLibrary/movieLibrary.png");
+    background-position: center;
+    background-size: cover;
+}
+
+.opus_grows{
+    background-image: url("images/opusGrows/opus.png");
+    background-position: center;
+    background-size: cover;
+}
+.custom_list{
+    background-image: url("images/customList/custom-list.png");
+    background-position: center;
+    background-size: cover;
+}
+.javascript_clock{
+    background-image: url("javaScriptClock.png");
+    background-position: center;
+    background-size: cover;
+}
+a:link{
+    text-decoration: none;
+}
+
+.projects{
+    display: grid;
+    grid-template-columns: auto auto;  
+    grid-template-rows: auto; 
+    height: fit-content;
+    width: 98%;
+    padding: 2rem 2rem 2rem 2rem;
+    border-radius: 10px;
+    background-image: url(tech-background.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.cell{
+    border-radius: 10px;
+    margin: 10px 10px 10px 10px;
+    height: 16rem;
+    filter: drop-shadow(2px 4px 6px black);
+    background-color: rgb(141, 135, 135);
+    color: white;
+}
+.projects a:hover{
+    background-image:  linear-gradient(to bottom, transparent, black);
+}
+.cell h3{
+    margin-left: 2rem;
+    margin-top: 2rem;
+    font-size: 23px;
+    background-color: black;
+    opacity: .8;
+    width: 15rem;
+    padding: 5px; 
+    border-radius: 9%;
+}
+.view-button{
+    float: right;
+    margin-top: 10rem;  
+}
+.project_text{
+    font-size: 1.6rem;
+    color:black;
+    margin-top: 8px;
+    width: 40%;
+    float: right;
+}
+/*Skills page*/
+
+.skills-page{
+    display: block;
+    background-image: url("tech-background.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    border-radius: 10px;
+    top: 5rem;
+    height: 88vh;
+    width: 98%;
+    position: relative;
+}
+.skills{
+    position: relative;
+    border-color: white;
+    border-radius: 10px;
+    background-color: rgb(141, 135, 135);
+    top: 25px;
+    float: left;
+    height: 75vh;
+    width: 48%;
+}
+.education{
+    position: relative;
+    border-radius: 10px;
+    background-color: rgb(141, 135, 135);
+    top: 25px;
+    float: right;
+    height: 75vh;
+    width: 48%;
+}
+.regular-text{
+    color: black;
+}
+/*About me*/
+.pic_of_me{
+    background-image: url(meAgain.jpg);
+    margin-right: 6rem;
+    margin-top: 4rem;
+    border-radius: 10%;
+    float: right;
+    width: 25rem;
+    height: 35rem;
+    background-position: center;
+    background-size: cover;
+}
+.about-me{
+    background-color: rgb(141, 135, 135);
+    margin-top: 4rem;
+    height: 90vh;
+    border-radius: 20px;
+    color: black;
+    border: 1px;
+}
+.about_me{
+    position: relative;
+    border-color: white;
+    margin-top: 2rem;
+    top: 25px;
+    float: left;
+    width: 60%;
+    height: 37em;
+    font-size: 2rem;
+}
+.fullstack{
+    color: white;
+    border-radius: 10px;
+    top: 10px;
+    position: relative;
+    font-size: 5rem;
+    text-align: center;
+}
+
+ 
+/* 
+0-500 px        phone
+500-800 px      tablet/port
+800-1200 px     tablet hoiz
+1200-1800 px    laptop
+1800+ px        desktop
+*/
+
+@media only screen and (min-width: 320px) and (max-width: 600px){
+    img{
+        width: 20rem;
+    }
+    .frontpage{
+        background-image: url('tech-background.jpg');
+        padding: 0%;
+        width: 90vw;
+        margin-top: 4rem;
+        height: 90vh;
+        background-position: center;
+        background-size: cover;
+        border-radius: 0%;
+        box-shadow: 1px 1px 10px 10px rgb(36, 36, 36) inset;
+        box-shadow: 0;
+        margin-top: 3.5rem;
+    }
+    .welcome-message{
+        margin-top: 0;
+        margin-left: .5em;
+        text-align: center;
+        color: white;
+        
+    }
+    .picture{
+        margin-top: 3rem;
+        margin-left: 0rem;
+        width: 14rem;
+        height: 18rem;
+        background-size: cover;
+        border-radius: 50%;
+        justify-items: center;
+        justify-content: center;
+    }
+    .parent{
+        top: 2rem;
+    }
+    .fullstack{
+        color: white;
+        border-radius: 10px;
+        top: 0;
+        position: relative;
+        font-size: 1rem;
+        text-align: center;
+    }
+    .info{
+        -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
+        display: -ms-grid;
+        display: flex;
+    }
+    .infoSpan{
+        margin-top: 3rem;
+        margin-left: 0rem;
+    }
+    .namebox{
+        padding-top: 2rem;
+    }
+    .email{
+        padding-left: 0;
+    }
+    .box{
+        background-position: cover;
+        background-size: cover;
+        border-radius: 5px 5px 0px 0px;
+        padding: 2px;
+        width: 40px;
+        height: 40px;
+        opacity: 100%;
+        bottom : 0;
+
+        margin: 0;
+        background-color: none;
+        filter: none;
+    }
+    .left_nav{
+        position: fixed;
+        display: flex;
+        justify-content: space-evenly;
+        bottom: 0;
+        width: 100%;
+        background-image: linear-gradient(to bottom, transparent, black);   
+
+        float: none;
+        margin: none;        
+        top: 93%;
+        -ms-transform: translateY(0);
+        transform: translateY(0);
+    }
+    .parent a{
+        justify-content: center;
+    }
+    /*
+    about me page styling
+    */
+    .about_me{
+        font-size: 1rem;
+        position: relative;
+        border-color: white;
+        top: 0px;
+        float: none;
+        width: auto;
+        height: auto;
+        margin-top: 2rem;
+    }
+    .about-me{
+        background-color: rgb(141, 135, 135);
+        margin: 4rem 5px 0rem 5px;
+        height: inherit;
+        width:97%;
+        border-radius: 20px;
+        color: black;
+        padding-right: 15px;
+        padding-left: 15px;
+        padding-bottom: 30px;
+    }
+    .contact-me{
+        background-image: url("tech-background.jpg");
+        background-position: center;
+        background-size: cover;
+        color: white;
+        border-radius: 10px;
+        top: 10px;
+        position: relative;
+        font-size: 3rem;
+        filter: drop-shadow(2px 4px 6px black);
+    }
+    .pic_of_me{
+        background-image: url(meAgain.jpg);
+        border-radius: 50%;
+        float: inherit;
+        width: 20rem;
+        height: 20rem;
+        background-position: center;
+        background-size: cover;
+        margin-right: auto;
+        margin-top: auto;
+    }
+     /*
+    skills page styling
+    */
+    .skills-page{
+        top: 3rem;
+        height: 65rem;
+        display: inline-grid;
+        grid-template-columns: auto;
+    }
+    .skills{
+        position: relative;
+        border-radius: 10px;
+        background-color: rgb(141, 135, 135);
+        top: 10px;
+        height: fit-content;
+        width: 90%;
+        padding: inherit;
+    }
+    .education{
+        position: relative;
+        border-radius: 10px;
+        background-color: rgb(141, 135, 135);
+        top: 20px;
+        height: fit-content;
+        width: 90%;
+        padding: inherit;
+    }
+    .regular-text{
+        color: black;
+    }
+     /*
+    individual project styling
+    */
+    .contact-form-outline{
+        background-color: rgb(141, 135, 135);
+        margin-top: 4rem;
+        height: fit-content;
+        border-radius: 20px;
+    }
+    .project_text{
+        font-size: 15px;
+        float: none;
+        width: 90%;
+        justify-content: center;
+    }
+    .clock{
+        width: 90%;
+        border-radius: 3%;
+        margin-top: 20px;
+        margin-left: 10px;
+        justify-content: center;
+    }
+     /*
+    projects page
+    */
+    .projects{
+        display: grid;
+        grid-template-columns: auto;  
+        grid-template-rows: auto; 
+    }
+    .cell{
+        height: 20rem;
+    }
+    
+    .cell h3{
+        margin-left: 2rem;
+        margin-top: 2rem;
+        font-size: 23px;
+    }
+    .view-button{
+        float: right;
+        margin-top: 10rem;  
+    }
+     /*
+    contacts page
+    */
+    .email{
+        padding-left: 3px;
+    }
+    .messagebox{
+        position: relative;
+        height: 18rem;
+        width: 100%;
+        border-radius: 1%;
+        border-color: rgb(177, 175, 175);
+    }
+    .submit-button{
+        float: right;
+        font-size: 1.5rem;
+        width: 8rem;
+        padding: 5px 0 5px 0;
+        margin: 5px 1em 5px 0;
+    }
+}
+/*
+Desktop
+*/
+@media only screen and (min-width: 601px) and (max-width: 995px){
+    .about_me{
+        font-size: 1.3rem;       
+        margin-top: 2rem;
+    }
+    .pic_of_me{
+        margin-right: 1rem;
+        margin-top: 3rem;
+        width: 16rem;
+        height: 30rem;
+    }
+    .infoSpan {
+        margin-left: 4rem;
+    }
+    .contact-form-outline{
+        background-color: rgb(141, 135, 135);
+        margin-top: 4rem;
+        height: fit-content;
+        border-radius: 20px;
+    }
+    .project_text{
+        font-size: 15px;
+        float: none;
+        width: 90%;
+        justify-content: center;
+    }
+    .clock{
+        width: 90%;
+        border-radius: 3%;
+        margin-top: 20px;
+        margin-left: 10px;
+        justify-content: center;
+    }
+}
+@media only screen and (min-width: 1250px) and (max-width: 1600px){
+    .frontpage{
+        width: 200rem;
+    }
+    .welcome-message {
+        text-align: center;
+        margin-top: 3em;
+        margin-left: 0rem;
+        color: white;
+        font-size: 4rem;
+    }
+    .picture {
+        margin-left: 7rem;
+        margin-top: 5rem;
+        width: 20rem;
+        height: 25rem;
+        background-position: center;
+        background-size: cover;
+        border-radius: 50%;
+    }
+}
